@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_mixer"
+        android:icon="@drawable/baseline_volume_up_24"
+        android:title="@string/title_mixer" />
+
+    <item
+        android:id="@+id/navigation_apps"
+        android:icon="@drawable/baseline_laptop_windows_24"
+        android:title="@string/title_apps" />
+
+    <item
+        android:id="@+id/navigation_windows"
+        android:icon="@drawable/baseline_window_24"
+        android:title="@string/title_windows" />
+
+</menu>

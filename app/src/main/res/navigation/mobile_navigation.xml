@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_mixer">
+    <fragment
+        android:id="@+id/navigation_init"
+        android:name="com.example.audiomixer.ui.init.InitFragment"
+        tools:layout="@layout/fragment_init" >
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_mixer"
+        android:name="com.example.audiomixer.ui.mixer.MixerFragment"
+        tools:layout="@layout/fragment_mixer" >
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_programs"
+        android:name="com.example.audiomixer.ui.programs.ProgramsFragment"
+        tools:layout="@layout/fragment_programs" >
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_command_center"
+        android:name="com.example.audiomixer.ui.commandCenter.CommandCenterFragment"
+        tools:layout="@layout/fragment_command_center" >
+    </fragment>
+
+</navigation>
